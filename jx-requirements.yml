@@ -1,17 +1,17 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
+  clusterName: "minikube"
+  environmentGitOwner: "kempy007"
   environmentGitPublic: false
-  project: ""
-  provider: gke
-  zone: ""
+  project: "jx"
+  provider: minikube
+  zone: "jx"
 gitops: true
 environments:
 - key: dev
 - key: staging
 - key: production
 ingress:
-  domain: ""
+  domain: "minikube.192.168.99.101.xip.io"
   externalDNS: false
   tls:
     email: ""
